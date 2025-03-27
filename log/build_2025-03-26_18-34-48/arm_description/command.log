@@ -1,0 +1,4 @@
+Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description
+Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description

@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="(Unsaved)">
+    <link name="Inner-segment-1">
+        <inertial>
+            <origin xyz="0.14869096811710608 0.024078886830244856 -0.012348964274972642" rpy="0.0 -0.0 -6.162975822039155e-33" />
+            <mass value="0.2833600074780817" />
+            <inertia ixx="0.00034081026023402594" iyy="0.0039160304068610345" izz="0.004200282877056464" ixy="-0.00059455990305238" iyz="-2.2913831434697663e-06" ixz="-1.4149646736258097e-05" />
+        </inertial>
+        <visual name="Inner-segment-1_visual">
+            <origin xyz="0.008969810358965026 -0.018580669999999588 -0.03037281098655359" rpy="3.1415926535897927 -0.06773193910546649 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Inner-segment-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Inner-segment-1_collision">
+            <origin xyz="0.008969810358965026 -0.018580669999999588 -0.03037281098655359" rpy="3.1415926535897927 -0.06773193910546649 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Inner-segment-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Outer-Segment-1">
+        <inertial>
+            <origin xyz="0.042369746357051596 -0.032841769024637674 -0.00949394148820346" rpy="0.0 -0.0 0.0" />
+            <mass value="0.21606030593577158" />
+            <inertia ixx="0.00022615230645413846" iyy="0.002777277137006491" izz="0.0029906172130756193" ixy="-0.00042425262579626536" iyz="2.0964511324092426e-07" ixz="1.294590617822649e-06" />
+        </inertial>
+        <visual name="Outer-Segment-1_visual">
+            <origin xyz="-0.12537443976516793 -0.08003935000007464 0.020677183871164004" rpy="-3.141592653589793 -0.06773193910546643 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Outer-Segment-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Outer-Segment-1_collision">
+            <origin xyz="-0.12537443976516793 -0.08003935000007464 0.020677183871164004" rpy="-3.141592653589793 -0.06773193910546643 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Outer-Segment-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Segment-2">
+        <inertial>
+            <origin xyz="-0.15990882545363874 -0.0458433583731925 0.002729437680136311" rpy="-1.5777218104420236e-30 1.3877787807814457e-17 0.0" />
+            <mass value="0.17369426696396562" />
+            <inertia ixx="9.11704553081008e-05" iyy="0.0016674380041777114" izz="0.0017313924452453952" ixy="-0.00019158720725404697" iyz="4.801839005032328e-06" ixz="2.942498572871283e-05" />
+        </inertial>
+        <visual name="Segment-2_visual">
+            <origin xyz="-0.3573018642389817 0.0778943800001038 -0.00040718831861210296" rpy="-1.0234398007401448e-14 0.06773193910546642 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Segment-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Segment-2_collision">
+            <origin xyz="-0.3573018642389817 0.0778943800001038 -0.00040718831861210296" rpy="-1.0234398007401448e-14 0.06773193910546642 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Segment-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Elbow-spacer">
+        <inertial>
+            <origin xyz="-0.3556959614417997 0.0778943843227995 -0.03577841389873497" rpy="0.0 0.0 0.0" />
+            <mass value="0.001784188349798337" />
+            <inertia ixx="4.3466910871361785e-07" iyy="4.326890922017549e-07" izz="8.62969963417925e-07" ixy="1.5973680507554235e-16" iyz="4.601468963513744e-18" ixz="-2.9188406461218423e-08" />
+        </inertial>
+        <visual name="Elbow-spacer_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Elbow-spacer.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Elbow-spacer_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Elbow-spacer.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Elbow-pulley">
+        <inertial>
+            <origin xyz="0.000879440977862842 0.0009492963432666901 0.010178702224517697" rpy="0.0 -0.0 -3.0814879110195767e-33" />
+            <mass value="0.026809011494629956" />
+            <inertia ixx="7.335135417140629e-06" iyy="7.301944870339876e-06" izz="1.2778095237829745e-05" ixy="-2.171839716106304e-07" iyz="5.56501924893623e-09" ixz="-1.6277978205700244e-07" />
+        </inertial>
+        <visual name="Elbow-pulley_visual">
+            <origin xyz="-0.3573018612384406 -0.0778943800001025 0.020907183189191124" rpy="-3.141592653589793 -0.06773193910546635 3.1415926535897927" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Elbow-pulley.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Elbow-pulley_collision">
+            <origin xyz="-0.3573018612384406 -0.0778943800001025 0.020907183189191124" rpy="-3.141592653589793 -0.06773193910546635 3.1415926535897927" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Elbow-pulley.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Shoulder-pulley">
+        <inertial>
+            <origin xyz="0.00016702501657533397 0.0007602069307280357 0.008163118224100166" rpy="7.888609052210118e-31 -1.3877787807814457e-17 -4.930380657631324e-32" />
+            <mass value="0.021540137919035793" />
+            <inertia ixx="6.042134173139803e-06" iyy="5.130953633752596e-06" izz="1.0223939461391966e-05" ixy="-2.1044834866784993e-07" iyz="-1.6822279481155093e-08" ixz="1.4785942386818217e-07" />
+        </inertial>
+        <visual name="Shoulder-pulley_visual">
+            <origin xyz="0.008969815613030781 -0.018580670000068224 0.013388981428217837" rpy="-3.141592653589788 -0.0677319391054678 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Shoulder-pulley.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Shoulder-pulley_collision">
+            <origin xyz="0.008969815613030781 -0.018580670000068224 0.013388981428217837" rpy="-3.141592653589788 -0.0677319391054678 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Shoulder-pulley.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Shoulder-pulley-top">
+        <inertial>
+            <origin xyz="0.009257874217493014 0.018580672102693593 -0.003942598609164651" rpy="0.0 0.0 0.0" />
+            <mass value="0.0077097810162523985" />
+            <inertia ixx="1.8181126449853222e-06" iyy="1.8099162244415363e-06" izz="3.5910944744788776e-06" ixy="3.5079909544765447e-16" iyz="1.3141207936735038e-17" ixz="-1.2082748316990756e-07" />
+        </inertial>
+        <visual name="Shoulder-pulley-top_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Shoulder-pulley-top.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Shoulder-pulley-top_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Shoulder-pulley-top.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="End-adapter">
+        <inertial>
+            <origin xyz="-0.005031741731089898 -0.0035831924222271194 -0.015468188097095973" rpy="-1.387778780781446e-17 6.938893903907228e-18 -5.551115123125783e-17" />
+            <mass value="0.022610071711839496" />
+            <inertia ixx="6.931818606898736e-06" iyy="6.812399107206056e-06" izz="9.12260559809114e-06" ixy="1.72535088313059e-07" iyz="-8.443101835170847e-09" ixz="-1.1855239777968305e-08" />
+        </inertial>
+        <visual name="End-adapter_visual">
+            <origin xyz="-0.12436788503172999 -0.08338733519961751 -0.01170688475305117" rpy="-2.1863739522204124 1.4538537235264053 3.141592653589757" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/End-adapter.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="End-adapter_collision">
+            <origin xyz="-0.12436788503172999 -0.08338733519961751 -0.01170688475305117" rpy="-2.1863739522204124 1.4538537235264053 3.141592653589757" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/End-adapter.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Lidar-mount">
+        <inertial>
+            <origin xyz="2.2465592999001417e-05 3.155246016897984e-05 0.03747303001319957" rpy="1.3877787807814454e-17 -0.0 0.0" />
+            <mass value="0.040675184205681655" />
+            <inertia ixx="2.439749379969433e-05" iyy="1.811564519777742e-05" izz="2.4083497894237012e-05" ixy="-9.075907106104719e-06" iyz="-2.067692384405214e-12" ixz="-1.096685850153015e-12" />
+        </inertial>
+        <visual name="Lidar-mount_visual">
+            <origin xyz="-0.11963544693993829 0.08001728873617946 0.0033568824802689555" rpy="0.9552187013693763 -1.453853723526396 3.141592653589778" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Lidar-mount.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Lidar-mount_collision">
+            <origin xyz="-0.11963544693993829 0.08001728873617946 0.0033568824802689555" rpy="0.9552187013693763 -1.453853723526396 3.141592653589778" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Lidar-mount.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="lidar-scanner">
+        <inertial>
+            <origin xyz="-0.028499361137488143 0.03865792558626008 -0.012501218514761438" rpy="6.93889390390723e-18 -6.938893903907228e-18 5.551115123125783e-17" />
+            <mass value="0.1832650215112898" />
+            <inertia ixx="0.00014435677646618784" iyy="8.614112944385834e-05" izz="0.00021192073522390882" ixy="9.303543145808944e-05" iyz="-9.281781807794146e-08" ixz="2.7084666444378596e-07" />
+        </inertial>
+        <visual name="lidar-scanner_visual">
+            <origin xyz="-0.14748219571709728 -0.04091313464312806 0.053793115866629146" rpy="-2.1863739522205474 1.4538537235263982 3.141592653589782" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/lidar-scanner.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="lidar-scanner_collision">
+            <origin xyz="-0.14748219571709728 -0.04091313464312806 0.053793115866629146" rpy="-2.1863739522205474 1.4538537235263982 3.141592653589782" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/lidar-scanner.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Rotating-base">
+        <inertial>
+            <origin xyz="0.0009454958949511361 -0.013937406413032899 -0.026340206281490773" rpy="0.0 -0.0 0.0" />
+            <mass value="0.13513027023583882" />
+            <inertia ixx="0.0003196971029113234" iyy="0.0003473613555370483" izz="0.00035399395093872364" ixy="-1.8852603829740187e-06" iyz="-5.789070442398563e-05" ixz="3.926984438672236e-06" />
+        </inertial>
+        <visual name="Rotating-base_visual">
+            <origin xyz="-0.009457710000097994 0.006888509999933281 -0.05551113000000003" rpy="-1.5707963267948966 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Rotating-base.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Rotating-base_collision">
+            <origin xyz="-0.009457710000097994 0.006888509999933281 -0.05551113000000003" rpy="-1.5707963267948966 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Rotating-base.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Motor-2">
+        <inertial>
+            <origin xyz="1.9440791588942742e-06 0.04854591045291026 -0.011502592617683511" rpy="0.0 -0.0 0.0" />
+            <mass value="0.7801501187130996" />
+            <inertia ixx="0.0008272122499750236" iyy="0.0008322192730304597" izz="0.0007118354416364189" ixy="7.918026943463393e-06" iyz="1.144869900456818e-06" ixz="-3.2628771027721636e-06" />
+        </inertial>
+        <visual name="Motor-2_visual">
+            <origin xyz="0.008969814180481445 0.06706926999999933 0.05577281169411289" rpy="-4.873331998796784e-16 0.06773193910546631 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Motor-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Motor-2_collision">
+            <origin xyz="0.008969814180481445 0.06706926999999933 0.05577281169411289" rpy="-4.873331998796784e-16 0.06773193910546631 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Motor-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Motor3">
+        <inertial>
+            <origin xyz="0.030610561375764025 -0.03753109931596892 -0.01150258712909114" rpy="0.0 -0.0 -3.0814879110195767e-33" />
+            <mass value="0.7801501436010239" />
+            <inertia ixx="0.0008214561327668359" iyy="0.000837975438979873" izz="0.0007118354681875855" ixy="-8.598507799608852e-07" iyz="-1.175001314886596e-06" ixz="-3.2521047237162325e-06" />
+        </inertial>
+        <visual name="Motor3_visual">
+            <origin xyz="0.039615087093458824 -0.056157410000074945 0.03972718614624342" rpy="-3.141592653589793 -0.06773193910546897 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Motor3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Motor3_collision">
+            <origin xyz="0.039615087093458824 -0.056157410000074945 0.03972718614624342" rpy="-3.141592653589793 -0.06773193910546897 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Motor3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="base_link">
+        <inertial>
+            <origin xyz="0.009457712276763237 -0.09482630466546345 -0.006888511200183273" rpy="0.0 0.0 0.0" />
+            <mass value="0.28490006671106993" />
+            <inertia ixx="0.0012312341702521963" iyy="0.0016359131184857149" izz="0.0009571533912343996" ixy="4.336808689942018e-19" iyz="1.8973538018496328e-19" ixz="1.9719640411419582e-05" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Motor1">
+        <inertial>
+            <origin xyz="0.048388262884823056 -0.003514622174982749 -0.01179844380423953" rpy="0.0 -0.0 0.0" />
+            <mass value="0.77591816842857" />
+            <inertia ixx="0.0008086706609744263" iyy="0.0008242129648449274" izz="0.0007105607462479837" ixy="2.927543884449306e-06" iyz="4.078706469450703e-07" ixz="3.4296082666917077e-06" />
+        </inertial>
+        <visual name="Motor1_visual">
+            <origin xyz="0.03890714000000004 -0.010350450000000002 0.08184933" rpy="1.5707963267948966 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Motor1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Motor1_collision">
+            <origin xyz="0.03890714000000004 -0.010350450000000002 0.08184933" rpy="1.5707963267948966 -0.0 0.0" />
+            <geometry>
+                <mesh filename="package://arm_description/meshes/Motor1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="base_link_base_link" type="continuous">
+        <origin xyz="0.009457710000000001 -0.05644933 -0.0068885100000000005" rpy="1.5707963267948966 -0.0 0.0" />
+        <parent link="base_link" />
+        <child link="Rotating-base" />
+        <axis xyz="0.0 -4.014266342129868e-17 1.0" />
+    </joint>
+    <joint name="Rotating-base_Revolute-2" type="continuous">
+        <origin xyz="0.0015471700000000354 -0.02280758 -0.0740918" rpy="-1.5707963267948972 3.569965238930788e-17 -3.0738607144843266" />
+        <parent link="Rotating-base" />
+        <child link="Inner-segment-1" />
+        <axis xyz="1.5792300248063107e-07 -4.862157448523543e-16 0.9999999201244844" />
+    </joint>
+    <joint name="base_link_Rigid-3" type="fixed">
+        <origin xyz="-0.03890714 -0.08184933 -0.01035045" rpy="-1.5707963267948966 -0.0 0.0" />
+        <parent link="base_link" />
+        <child link="Motor1" />
+    </joint>
+    <joint name="Rotating-base_Rigid-4" type="fixed">
+        <origin xyz="0.0032662500000000616 -0.04814933999999999 -0.12258040000000002" rpy="1.5707963267948961 3.5699652389307765e-17 -3.073860714484327" />
+        <parent link="Rotating-base" />
+        <child link="Motor-2" />
+    </joint>
+    <joint name="Outer-Segment-1_Rigid-6" type="fixed">
+        <origin xyz="-0.1649895268586271 -0.023881940000000004 -0.01905000227506732" rpy="-1.925543058334255e-16 2.7755575615628914e-17 1.3062057194592956e-17" />
+        <parent link="Outer-Segment-1" />
+        <child link="Motor3" />
+    </joint>
+    <joint name="Motor3_Revolute-7" type="continuous">
+        <origin xyz="0.030645271480425233 -0.03757674000000001 0.0263382047180144" rpy="5.191585569209125e-15 1.942890293094024e-16 -3.5217487005611875e-16" />
+        <parent link="Motor3" />
+        <child link="Shoulder-pulley" />
+        <axis xyz="1.5792300211980859e-07 4.962601727153241e-15 0.9999999201244844" />
+    </joint>
+    <joint name="Shoulder-pulley-top_Rigid-8" type="fixed">
+        <origin xyz="0.02398979999976188 0.027319740000068423 -0.0009896499998297292" rpy="5.100834449758288e-16 0.06773193910546671 3.141592653589793" />
+        <parent link="Shoulder-pulley" />
+        <child link="Shoulder-pulley-top" />
+    </joint>
+    <joint name="Outer-Segment-1_Revolute-9" type="continuous">
+        <origin xyz="0.23192742147297182 -0.002144970000000006 -0.0008999993181126343" rpy="-1.925543058334255e-16 2.7755575615628914e-17 1.3062057194592956e-17" />
+        <parent link="Outer-Segment-1" />
+        <child link="Elbow-pulley" />
+        <axis xyz="1.579230023279754e-07 -2.28983482991822e-16 0.9999999201244844" />
+    </joint>
+    <joint name="Elbow-pulley_Rigid-11" type="fixed">
+        <origin xyz="3.0005409712430267e-09 -8.881784197001253e-18 0.02049999487057719" rpy="3.141592653589783 -9.71445146547012e-17 6.961723456145226e-16" />
+        <parent link="Elbow-pulley" />
+        <child link="Segment-2" />
+    </joint>
+    <joint name="Elbow-spacer_Rigid-12" type="fixed">
+        <origin xyz="-0.35573657429134137 0.07789438000010275 -0.035179793736170084" rpy="-3.14159265358979 0.06773193910545251 -3.1415926535897927" />
+        <parent link="Segment-2" />
+        <child link="Elbow-spacer" />
+    </joint>
+    <joint name="Inner-segment-1_Rigid-16" type="fixed">
+        <origin xyz="0.1343442501238078 0.06145868000000003 -0.051049994857591985" rpy="4.497865854848362e-16 1.249000902703301e-16 -3.051159037724171e-17" />
+        <parent link="Inner-segment-1" />
+        <child link="Outer-Segment-1" />
+    </joint>
+    <joint name="Lidar-mount_Rigid-17" type="fixed">
+        <origin xyz="0.02784674877716297 0.03910415409306758 0.05714999834689846" rpy="3.141592653589778 -1.9984014443252818e-15 1.316169395693123e-13" />
+        <parent link="Lidar-mount" />
+        <child link="lidar-scanner" />
+    </joint>
+    <joint name="End-adapter_Rigid-18" type="fixed">
+        <origin xyz="-0.0051725030868461095 -0.0036834244152353967 -0.006350002272780318" rpy="-3.141592653589784 -2.6575963651964685e-15 7.865930129469234e-14" />
+        <parent link="End-adapter" />
+        <child link="Lidar-mount" />
+    </joint>
+    <joint name="Segment-2_Rigid-19" type="fixed">
+        <origin xyz="-0.33139016590779635 -0.06998621000000027 0.003809995622794664" rpy="-1.5707963267948952 -0.6188122549285662 -1.4753925100819636" />
+        <parent link="Segment-2" />
+        <child link="End-adapter" />
+    </joint>
+</robot>

@@ -1,0 +1,8 @@
+[0.046s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+[0.256s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm_node.cpp.o[0m
+[0.276s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/openmutt/openarm_ws/src/arm_description/src/arm_node.cpp: No such file or directory
+[0.276s] compilation terminated.
+[0.278s] gmake[2]: *** [CMakeFiles/arm_node.dir/build.make:76: CMakeFiles/arm_node.dir/src/arm_node.cpp.o] Error 1
+[0.278s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arm_node.dir/all] Error 2
+[0.280s] gmake: *** [Makefile:146: all] Error 2
+[0.290s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6

@@ -1,0 +1,53 @@
+[0.078s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/openmutt/openarm_ws/src/arm_description -DCMAKE_INSTALL_PREFIX=/home/openmutt/openarm_ws/install/arm_description
+[0.601s] -- The C compiler identification is GNU 11.4.0
+[0.863s] -- The CXX compiler identification is GNU 11.4.0
+[0.901s] -- Detecting C compiler ABI info
+[1.147s] -- Detecting C compiler ABI info - done
+[1.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.177s] -- Detecting C compile features
+[1.180s] -- Detecting C compile features - done
+[1.193s] -- Detecting CXX compiler ABI info
+[1.449s] -- Detecting CXX compiler ABI info - done
+[1.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.475s] -- Detecting CXX compile features
+[1.477s] -- Detecting CXX compile features - done
+[1.559s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.084s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.582s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.907s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.907s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/openmutt/openarm_ws/src/arm_description/include>
+[2.908s] -- Configured cppcheck exclude dirs and/or files: 
+[2.912s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.916s] -- Added test 'lint_cmake' to check CMake code style
+[2.919s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.925s] -- Added test 'uncrustify' to check C / C++ code style
+[2.925s] -- Configured uncrustify additional arguments: 
+[2.928s] -- Added test 'xmllint' to check XML markup files
+[2.937s] -- Configuring done
+[2.949s] -- Generating done
+[2.955s] -- Build files have been written to: /home/openmutt/openarm_ws/build/arm_description
+[2.971s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/openmutt/openarm_ws/src/arm_description -DCMAKE_INSTALL_PREFIX=/home/openmutt/openarm_ws/install/arm_description
+[2.979s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+[3.172s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_node.dir/src/arm_node.cpp.o[0m
+[3.280s] [100%] [32m[1mLinking CXX executable arm_node[0m
+[3.419s] [100%] Built target arm_node
+[3.463s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+[3.500s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description
+[3.529s] -- Install configuration: ""
+[3.529s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/lib/arm_description/arm_node
+[3.530s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[3.530s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[3.533s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[3.533s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[3.534s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/path.sh
+[3.534s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/path.dsv
+[3.535s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.bash
+[3.535s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.sh
+[3.535s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.zsh
+[3.536s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.dsv
+[3.536s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/package.dsv
+[3.536s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[3.537s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[3.537s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[3.537s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/package.xml
+[3.545s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description

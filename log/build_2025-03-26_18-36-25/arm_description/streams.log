@@ -1,0 +1,40 @@
+[0.035s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+[0.157s] [100%] Built target arm_node
+[0.190s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+[0.219s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description
+[0.244s] -- Install configuration: ""
+[0.244s] -- Execute custom install script
+[0.245s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/urdf/OpenArm.urdf
+[0.246s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/End-adapter.stl
+[0.247s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Inner-segment-1.stl
+[0.247s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Lidar-mount.stl
+[0.247s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Link2.stl
+[0.248s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Link4.stl
+[0.248s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Motor-2.stl
+[0.248s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Motor1.stl
+[0.249s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Motor3.stl
+[0.249s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Outer-Segment-1.stl
+[0.249s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Segment-2.stl
+[0.250s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Shoulder-pulley.stl
+[0.250s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/base_link.stl
+[0.250s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/lidar-scanner.stl
+[0.250s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/rviz/urdf.rviz
+[0.251s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/launch/display.launch.py
+[0.251s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/gz_sim_resource_path.dsv
+[0.252s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/lib/arm_description/arm_node
+[0.252s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[0.252s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[0.253s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[0.253s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[0.253s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/path.sh
+[0.254s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/path.dsv
+[0.254s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.bash
+[0.254s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.sh
+[0.255s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.zsh
+[0.255s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.dsv
+[0.255s] -- Symlinking: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/package.dsv
+[0.283s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[0.283s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[0.284s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[0.284s] -- Up-to-date symlink: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/package.xml
+[0.291s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description

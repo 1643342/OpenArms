@@ -1,0 +1,46 @@
+[0.045s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+[0.241s] [100%] Built target arm_node
+[0.285s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/openmutt/openarm_ws/build/arm_description -- -j6 -l6
+[0.321s] Invoking command in '/home/openmutt/openarm_ws/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description
+[0.350s] -- Install configuration: ""
+[0.351s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/urdf
+[0.351s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/urdf/OpenArm_V1.urdf
+[0.352s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes
+[0.352s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Shoulder-pulley.stl
+[0.353s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/lidar-scanner.stl
+[0.353s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Elbow-spacer.stl
+[0.353s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Motor1.stl
+[0.353s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Motor3.stl
+[0.354s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Motor-2.stl
+[0.354s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Solid-Base.stl
+[0.354s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Inner-segment-1.stl
+[0.354s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/End-adapter.stl
+[0.355s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Lidar-mount.stl
+[0.355s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Elbow-pulley.stl
+[0.355s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Rotating-base.stl
+[0.355s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Shoulder-pulley-top.stl
+[0.356s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Segment-2.stl
+[0.356s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/meshes/Outer-Segment-1.stl
+[0.356s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/rviz
+[0.356s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/rviz/urdf.rviz
+[0.357s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/launch
+[0.357s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/launch/display.launch.py
+[0.357s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/launch/urdf_launch
+[0.358s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/gz_sim_resource_path.dsv
+[0.358s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/lib/arm_description/arm_node
+[0.358s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[0.358s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[0.359s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[0.359s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[0.359s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/path.sh
+[0.359s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/environment/path.dsv
+[0.360s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.bash
+[0.360s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.sh
+[0.360s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.zsh
+[0.360s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/local_setup.dsv
+[0.361s] -- Installing: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/package.dsv
+[0.363s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[0.366s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[0.367s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[0.367s] -- Up-to-date: /home/openmutt/openarm_ws/install/arm_description/share/arm_description/package.xml
+[0.368s] Invoked command in '/home/openmutt/openarm_ws/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/openmutt/openmutt_ws/install/opencv_tests:/home/openmutt/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/openmutt/ros2_control_ws/install/rqt_controller_manager:/home/openmutt/ros2_control_ws/install/ros2controlcli:/home/openmutt/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/openmutt/openarm_ws/build/arm_description

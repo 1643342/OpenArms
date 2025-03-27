@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/openmutt/openmutt_ws/install/image_geometry/include/**",
+        "/home/openmutt/openmutt_ws/install/cv_bridge/include/**",
+        "/home/openmutt/openmutt_ws/install/champ_msgs/include/**",
+        "/home/openmutt/openmutt_ws/install/champ/include/**",
+        "/home/openmutt/ros2_control_ws/install/velocity_controllers/include/**",
+        "/home/openmutt/ros2_control_ws/install/tricycle_steering_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/tricycle_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/transmission_interface/include/**",
+        "/home/openmutt/ros2_control_ws/install/bicycle_steering_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/ackermann_steering_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/steering_controllers_library/include/**",
+        "/home/openmutt/ros2_control_ws/install/ign_ros2_control/include/**",
+        "/home/openmutt/ros2_control_ws/install/controller_manager/include/**",
+        "/home/openmutt/ros2_control_ws/install/ros2_control_test_assets/include/**",
+        "/home/openmutt/ros2_control_ws/install/range_sensor_broadcaster/include/**",
+        "/home/openmutt/ros2_control_ws/install/position_controllers/include/**",
+        "/home/openmutt/ros2_control_ws/install/pose_broadcaster/include/**",
+        "/home/openmutt/ros2_control_ws/install/pid_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/joint_trajectory_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/joint_state_broadcaster/include/**",
+        "/home/openmutt/ros2_control_ws/install/joint_limits/include/**",
+        "/home/openmutt/ros2_control_ws/install/imu_sensor_broadcaster/include/**",
+        "/home/openmutt/ros2_control_ws/install/gripper_controllers/include/**",
+        "/home/openmutt/ros2_control_ws/install/gpio_controllers/include/**",
+        "/home/openmutt/ros2_control_ws/install/effort_controllers/include/**",
+        "/home/openmutt/ros2_control_ws/install/forward_command_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/force_torque_sensor_broadcaster/include/**",
+        "/home/openmutt/ros2_control_ws/install/diff_drive_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/admittance_controller/include/**",
+        "/home/openmutt/ros2_control_ws/install/controller_interface/include/**",
+        "/home/openmutt/ros2_control_ws/install/hardware_interface/include/**",
+        "/home/openmutt/ros2_control_ws/install/controller_manager_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/openmutt/openarm_ws/src/openarm_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
